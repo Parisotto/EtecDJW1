@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áreas Semânticas</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html { height: 100%; }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        header, main, aside, footer {
+            background-color: aquamarine;
+            min-height: 130px;
+            padding: 20px;
+        }
+
+        main {
+            background-color:cornsilk;
+            width: 70%;
+            float: left;
+        }
+
+        aside {
+            background-color: cornflowerblue;
+        }
+
+        footer {
+            background-color: gold;
+            clear:both; 
+            position:fixed;
+            bottom: 0;
+            width: 100%;
+            min-height: 30px;  
+        }
+
+        p {
+            color: #fff;
+        }
+    </style>
+</head>
+<!-- <body bgcolor='black'> // Depreciado! - Nâo deve ser usado em caso algum -->
+<body style="background-color: black;">
+    <header style="border: 1px solid black;">
+        <p style="color: green">Head</p>
+    </header>
+    <main>
+        <h1><font size='5' color='#ffaa00'>Main</font></h1>
+        <pre>
+            <code>
+num = int(input("Digite um numero"))
+if num % 2 == 0:
+    print(f"O número {num} é par.")
+else:
+    print(f"O número {num} é impar.")
+print("Fim do programa em Python")
+            </code>
+        </pre>   
+
+    </main>
+    <aside>
+        <p>Aside</p>
+        <q>Isto é um citação</q>
+    </aside>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
