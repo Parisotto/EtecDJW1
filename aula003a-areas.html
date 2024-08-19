@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áreas Semânticas</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: yellow;
+            padding: 20px;
+        }
+
+        main {
+            background-color: aquamarine;
+            padding: 20px;
+            width: 70%;
+            float: left;
+            min-height: 300px;
+        }
+
+        aside {
+            background-color: burlywood;
+            padding: 20px;
+        }
+
+        footer {
+            background-color:coral;
+            padding: 20px;
+            clear: both;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        p {
+            color:green;
+        }
+        #p-rodape {
+            color:blue;
+        }
+        aside p {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<!--
+<body bgcolor="#ffaa00"> // Este atributo de bgcolor foi eliminado
+
+<body style="background-color: #fa0;">
+-->
+<body>            
+    <header>
+        <h1>Cabeçalho da página</h1>
+        <p style="color:brown">Aqui vai tudo que se refere ao Cabeçalho da página</p>
+    </header>
+    <main>
+        <h1>Conteúdo principal</h1>
+        <p>Aqui vai todo o conteúdo relevante da página</p>
+        <p>Abaixo um exemplo de texto pre-formatado.</p>
+        <pre>
+            <code>
+numero = int(input('Digite um texto'))
+if numero % 2 == 0:
+    print(f"O número {numero} é par)
+else:
+    print(f"O número {numero} é impar)
+print("Fim do código")
+            </code>
+        </pre>
+        
+    </main>
+    <aside>
+        <h1>Este é o centeúdo periférico</h1>
+        <p>Aqui vai o conteúdo secundário da página</p>
+    </aside>
+    <footer>
+        <h1>Rodapé da página</h1>
+        <p id="p-rodape">Aqui vai o conteúdo do rodapé de uma página</p>
+    </footer>
+</body>
+</html>
