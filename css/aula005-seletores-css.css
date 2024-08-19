@@ -43,6 +43,7 @@ footer {
 
 footer a {
     font-weight: bold;
+    color: aquamarine;
 }
 
 main p a:hover {
