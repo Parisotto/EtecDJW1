@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #cc0000; /* RGB -> Red Green Blue */
+    border: 1px solid gray;
+    text-align: center;
+}
+
+main p {
+    font-weight: bold;
+    color: rgb(5, 73, 110);
+}
+
+p {
+    border: 1px solid gray;
+    text-align: justify;
+
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    
+    margin: 30px 25px 15px 5px;
+
+    padding: 25
+    px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer {
+    background-color: white;
+}
+
+footer a {
+    font-weight: bold;
+    color: aquamarine;
+}
+
+main p a:hover {
+    text-decoration: underline;
+}
+
