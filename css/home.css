@@ -1,0 +1,85 @@
+main #principal {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/xicaradecafe.jpg");
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 3px gray;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+
+main #principal div {
+    background-color: #0002;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main #principal h1 {
+    font-size: 35px;
+    display: inline-block;    
+}
+
+main #principal p {
+    font-size: 20px;
+}
+
+main #artigos {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main article {
+    display: inline-block;
+    /* max-width: 590px; */
+    flex-basis: 375px;
+    flex-grow: 1; /* grow = crescer */
+    margin: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px lightgray;
+}
+
+article div.img {
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+#i1 {
+    background: url("../img/foto-g.jpg") center;
+}
+
+#i2 {
+    background: url("../img/foto-m.jpg") center;
+}
+
+#i3 {
+    background: url("../img/foto-p.jpg") top;
+    background-size: cover;
+}
+
+#i4 {
+    background: url("../img/xicaradecafe.jpg") bottom;
+}
+
+#i5 {
+    background: url("../img/foto-g.jpg") top;
+}
+
+main article h1 {
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    margin:20px;
+}
+
+main article p {
+    margin: 20px;
+    font-size: 18px;
+}
