@@ -34,11 +34,11 @@ main #artigos {
 }
 
 main article {
-    display: inline-block;
+    /* display: inline-block; */
     /* max-width: 590px; */
     flex-basis: 375px;
     flex-grow: 1; /* grow = crescer */
-    margin: 10px;
+    margin: 20px 10px 0;
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 8px;
