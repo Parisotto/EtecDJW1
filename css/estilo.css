@@ -10,6 +10,7 @@ a {
 }
 
 header {
+    padding-bottom: 10px;
     color: gray;
     max-width: 1200px;
     margin: 0 auto;
