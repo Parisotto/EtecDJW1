@@ -30,4 +30,10 @@ td{
     background-color: gray;
     color: white;
     font-weight: bold;
+    text-align: center;
+}
+
+.valor {
+    text-align: right;
+    width: 1%;
 }
