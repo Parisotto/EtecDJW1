@@ -1,0 +1,33 @@
+main{
+    max-width: 1200px;
+    margin: 0 auto 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: gray
+}
+
+table {
+    border: 3px solid gray;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+td{
+    background-color:rgb(225, 247, 255);
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+#cabeçalho td {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
