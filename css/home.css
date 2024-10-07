@@ -1,4 +1,4 @@
-main #principal {
+#principal {
     width: 100%;
     height: 400px;
     background-image: url("../img/xicaradecafe.jpg");
@@ -10,34 +10,34 @@ main #principal {
     box-sizing: border-box;
 }
 
-main #principal div {
+#principal div {
     background-color: #0002;
     max-width: 60%;
     margin: 0 auto;
     padding: 20px;
 }
 
-main #principal h1 {
+#principal h1 {
     font-size: 35px;
     display: inline-block;    
 }
 
-main #principal p {
+#principal p {
     font-size: 20px;
 }
 
-main #artigos {
+#artigos {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-main article {
+#artigos article {
     /* display: inline-block; */
     /* max-width: 590px; */
+    flex-grow: 1;
     flex-basis: 375px;
-    flex-grow: 1; /* grow = crescer */
     margin: 20px 10px 0;
     background-color: white;
     border: 1px solid lightgray;
@@ -45,7 +45,7 @@ main article {
     box-shadow: 3px 3px 8px lightgray;
 }
 
-article div.img {
+#artigos article div.img {
     width: 100%;
     height: 120px;
     background-size: cover;
@@ -61,8 +61,7 @@ article div.img {
 }
 
 #i3 {
-    background: url("../img/foto-p.jpg") top;
-    background-size: cover;
+    background: url("../img/foto-p.jpg") center;
 }
 
 #i4 {
@@ -72,14 +71,13 @@ article div.img {
 #i5 {
     background: url("../img/foto-g.jpg") top;
 }
-
-main article h1 {
+#artigos article h1 {
     color: gray;
     border-bottom: 1px solid lightgray;
     margin:20px;
 }
 
-main article p {
+#artigos article p {
     margin: 20px;
     font-size: 18px;
 }

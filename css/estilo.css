@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -9,7 +10,7 @@ a {
 }
 
 header {
-    padding: 10px;
+    padding-bottom: 10px;
     color: gray;
     max-width: 1200px;
     margin: 0 auto;
@@ -46,7 +47,6 @@ li a:hover {
 
 main {
     background-color: #f9f9f9;
-    padding-bottom: 20px;
 }
 
 footer {
