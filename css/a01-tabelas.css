@@ -5,6 +5,7 @@ main{
 
 section {
     padding: 20px;
+    border-bottom: 1px dashed gray;
 }
 
 h1 {
@@ -13,27 +14,255 @@ h1 {
     color: gray
 }
 
-table {
+/* Tabela Simples*/
+#t1 {
     border: 3px solid gray;
     border-collapse: collapse;
+    margin: 30px auto;
     width: 80%;
-    margin: 20px auto;
+    font-size: 20px;
 }
 
-td{
+#t1 td {
     background-color:rgb(225, 247, 255);
     border: 1px solid gray;
     padding: 10px;
 }
 
-#cabeçalho td {
+#t1 #cabeçalho td {
     background-color: gray;
     color: white;
     font-weight: bold;
     text-align: center;
 }
 
-.valor {
+#t1 .valor {
     text-align: right;
     width: 1%;
+}
+
+/* Tabela simples quadrada */
+#t2{
+    border: 3px solid rgb(167, 121, 6);
+    border-collapse: collapse;
+    margin: 30px auto;
+
+    min-width: 500px;
+    height: 500px;
+}
+
+#t2 td {
+    background-color:rgb(255, 253, 225);
+    border: 1px solid rgb(167, 121, 6);
+    padding: 10px;
+
+    width: calc(500px/3);
+    text-align: center;
+}
+
+#t2 #cabeçalho td {
+    background-color: rgb(167, 121, 6);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#t2 .valor {
+    text-align: right;
+    vertical-align: bottom;
+}
+
+#t2 td:first-child {
+    vertical-align: top;
+}
+
+/* Tabela Mesclada */
+#t3 {
+    border: 5px solid darkblue;
+    border-collapse: collapse;
+    margin: 30px auto;
+    width: 100%;
+    font-size: 25px;
+}
+
+#t3 th {
+    padding: 10px;
+    background-color: darkblue;
+    color: lightblue;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid lightblue;
+}
+
+#t3 td {
+    padding: 10px;
+    background-color:rgb(225, 255, 253);
+    border: 2px solid darkblue;
+}
+
+/* Tabela Completa */
+.t3{
+    border-collapse: collapse;
+    margin: 30px auto;
+    width: 100%;
+    font-size: 25px;
+
+    position: relative;
+}
+
+.t3 caption {
+    font-size: 26px;
+    font-style: italic;
+    color: darkblue;
+    background-color: white;
+    position:sticky;
+    top: -1;}
+
+.t3 tr {
+    background-color:rgb(229, 255, 225);
+    border-top: 1px solid green;
+}
+.t3 td {
+    padding: 10px;
+}
+
+.t3 th {
+    padding: 10px;
+    background-color: green;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+
+.t3 th:first-child, .t3 th:nth-child(3) {
+    width: 1px;
+}
+
+.t3 img {
+    width: 40px;
+}
+
+.t3 tfoot th, .t3 tfoot td {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+.t3 tfoot th {
+    text-align: left;
+}
+
+.t3 tfoot td {
+    text-align: right;
+}
+
+.t3 tr:nth-child(2n) {
+    background-color:rgb(203, 231, 199);
+}
+
+.t3 thead > tr > th {
+    position: sticky;
+    top: 29px;
+}
+
+.t3 tbody > tr > td:nth-child(6) {
+    text-align: center;
+    width: 5%;
+    background-color:rgb(229, 255, 225);
+}
+
+.t3 tbody > tr > td:nth-child(4) {
+    text-align: right;
+}
+
+.t3 td.populoso {
+    font-weight: bold;
+    color: red;
+}
+
+/* Tabela maluca 1 */
+#t4 {
+    border-collapse: collapse;
+    margin: 30px auto;
+
+    min-width: 400px;
+    height: 400px;
+
+    color: rgb(149, 116, 53);
+}
+
+#t4 td {
+    background-color:rgb(250, 238, 202);
+    border: 1px solid rgb(149, 116, 53);
+    padding: 10px;
+
+    width: 100px;
+    text-align: center;
+}
+
+/* Tabela maluca 2 */
+#t5 {
+    border-collapse: collapse;
+    margin: 30px auto;
+
+    min-width: 400px;
+    height: 400px;
+
+    color: darkmagenta;
+}
+
+#t5 td {
+    background-color:rgb(249, 220, 241);
+    border: 1px solid darkmagenta;
+    padding: 10px;
+
+    width: 100px;
+    text-align: center;
+}
+
+/* Tabela maluca 3 */
+#casa {
+    border: 5px solid gray;
+    border-collapse: collapse;
+    margin: 30px auto;
+
+    min-width: 900px;
+    min-height: 1000px;
+
+    color: gray;
+}
+
+#casa td {
+    background-color:#eee;
+    text-align: center;
+    border: 5px solid gray;
+    height: 100px;
+}
+
+#casa .quintal {
+    background-color: white;
+    border-top: 0;
+    border-bottom: 0;
+    width: 200px;
+}
+
+#casa .quarto {
+    width: 200px;
+    height: 200px;
+}
+
+#casa .q1 {
+    border-bottom: none;
+}
+#casa tr:first-child {
+    height: 200px;
+}
+#sala {
+    height: 200px !important;
+    border: none !important;
+    border-bottom: 5px solid gray !important;
+}
+
+#corredor {
+    border: none !important;
 }
