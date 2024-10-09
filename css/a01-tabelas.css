@@ -115,8 +115,7 @@ h1 {
     font-style: italic;
     color: darkblue;
     background-color: white;
-    position:sticky;
-    top: -1;}
+}
 
 .t3 tr {
     background-color:rgb(229, 255, 225);
@@ -162,7 +161,7 @@ h1 {
 
 .t3 thead > tr > th {
     position: sticky;
-    top: 29px;
+    top: -1px;
 }
 
 .t3 tbody > tr > td:nth-child(6) {
