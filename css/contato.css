@@ -81,3 +81,19 @@ button:hover {
     font-size: 12px;
     margin-top: 50px;
 }
+
+.mapa {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.mapa iframe {
+    border: none;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
