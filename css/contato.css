@@ -75,3 +75,23 @@ section h2 {
 #redes a {
     margin-right: 30px;
 }
+
+#redes img {
+    /* width: 80px; */
+}
+
+.mapa {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+}
+
+.mapa iframe {
+    border: none;
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+}
