@@ -39,7 +39,7 @@
         }
 
         #t1 td {
-            background-color: rgb(255, 247, 255);
+            background-color: rgb(225, 247, 255);
             border: 1px solid gray;
             padding: 10px;
         }
@@ -113,6 +113,64 @@
             background-color: rgb(225, 255,253);
             border: 2px solid darkblue;
         }
+
+        /* Tabela Colpleta */
+        .t3 {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 25px;
+            margin: 30px auto;
+        }
+
+        .t3 caption {
+            font-size: 26px;
+            font-style: italic;
+            color: darkblue;
+            background-color: white;
+        }
+
+        .t3 tr {
+            border-top: 1px solid green;
+            background-color: rgb(229, 255, 225);
+        }
+
+        .t3 td {
+            padding: 10px;
+        }
+
+        .t3 th {
+            padding: 10px;
+            color: yellow;
+            background-color: green;
+            font-weight: bold;
+
+        }
+
+        .t3 tr:nth-child(2n) {
+            background-color: rgb(203, 231, 199);
+        }
+
+        .t3 tfoot th, .t3 tfoot td {
+            background-color: white;
+            color: black;
+            font-size: 20px;
+            text-align: left;
+        }
+
+        .t3 .populoso {
+            font-weight: bold;
+            color: red;
+        }
+
+        .t3 tbody > tr > td:nth-child(4) {
+            text-align: right;
+        } 
+
+        .t3 th:first-child, .t3 th:nth-child(3){
+            width: 1px;
+        }
+        
+        
     </style>
 </head>
 <body>
@@ -232,24 +290,97 @@
                         <td>Princesa Mononoke</td>
                     </tr>
                     <tr>
-                        <td>Meninos</td>
+                        <td rowspan="3">Meninos</td>
                         <td>Marco</td>
                         <td>Deadpool 30</td>
                         <td>Fear and Hunger 2</td>
                     </tr>
                     <tr>
-                        <td>Meninos</td>
                         <td>Antonio</td>
                         <td>Cassino Royale</td>
                         <td>Vindadores 30</td>
                     </tr>
                     <tr>
-                        <td>Meninos</td>
                         <td>Manja</td>
                         <td>Interestelar</td>
                         <td>As Branquelas</td>
                     </tr>
                 </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h1>Tabela Completa</h1>
+            <table class="t3">
+                <caption>Tabela das unidade Federativa do Brasil</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Estado</th>
+                        <th>Sigla</th>
+                        <th>População</th>
+                        <th>Capital</th>
+                        <th>Região</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>São Paulo</td>
+                        <td>SP</td>
+                        <td class="populoso">45 973 190</td>
+                        <td>São Paulo</td>
+                        <td rowspan="4">Sudeste</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Rio de Janeiro</td>
+                        <td>RJ</td>
+                        <td>17 219 679</td>
+                        <td>Rio de Janeiro</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Minas Gerais</td>
+                        <td>MG</td>
+                        <td class="populoso">21 322 692</td>
+                        <td>Belo Horizonte</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Espírito Santo</td>
+                        <td>ES</td>
+                        <td>4 102 129</td>
+                        <td>Vitória</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Paraná</td>
+                        <td>PR</td>
+                        <td>11 824 665</td>
+                        <td>Curitiba</td>
+                        <td rowspan="3">Sul</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Santa Catarina</td>
+                        <td>SC</td>
+                        <td>8 048 447</td>
+                        <td>Florianópolis</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Rio Grande do Sul</td>
+                        <td>RS</td>
+                        <td>11 229 915</td>
+                        <td>Porto Alegre</td>                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="4">Unidades Federativas do Brasil</th>
+                        <td colspan="2">Fonte: <a target="_blank" href="https://pt.wikipedia.org/wiki/Unidades_federativas_do_Brasil">wikipedia</a></td>
+                    </tr>
+                </tfoot>
             </table>
         </section>
     </main>
