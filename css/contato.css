@@ -1,6 +1,4 @@
 main {
-    font-family: Arial, sans-serif;
-
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -11,32 +9,16 @@ main {
 section {
     flex-grow: 1;
     flex-basis: 400px;
-    padding: 40px;
     background-color: white;
+    padding: 40px;
 }
 
 section h1 {
+    text-align: center;
     font-size: 30px;
     padding-bottom: 30px;
     color: gray;
     font-weight: lighter;
-}
-
-section h2 {
-    font-size: 23px;
-    color: gray;
-    font-weight: lighter;
-    margin: 60px 0 20px 0;
-}
-
-section p {
-    color: gray;
-    margin: 10px 0;
-}
-
-#redes img {
-    margin: 0 20px 0 0;
-    width: 40px;
 }
 
 form {
@@ -50,13 +32,13 @@ label {
     margin-bottom: 5px;
 }
 
-input,
-textarea {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
+input, textarea {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    color: blue;
 }
 
 textarea {
@@ -64,7 +46,7 @@ textarea {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -73,8 +55,9 @@ button {
     font-weight: bold;
 }
 
-button:hover {
-    background-color: #45a049;
+section p {
+    color: gray;
+    margin: 10px 0;
 }
 
 #privacidade {
@@ -82,18 +65,33 @@ button:hover {
     margin-top: 50px;
 }
 
+section h2 {
+    font-size: 23px;
+    color: gray;
+    font-weight: lighter;
+    margin: 60px 0 20px 0;
+}
+
+#redes a {
+    margin-right: 30px;
+}
+
+#redes img {
+    /* width: 80px; */
+}
+
 .mapa {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
 }
 
 .mapa iframe {
     border: none;
-    left:0;
+    position: absolute;
+    left: 0;
     top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+    height: 100%;
+    width: 100%;
 }
