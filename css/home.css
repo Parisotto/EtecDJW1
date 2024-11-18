@@ -1,9 +1,11 @@
 #principal {
     width: 100%;
     height: 400px;
-    background-image: url("../img/xicaradecafe.jpg");
-    background-position: center;
+    background-image: url("../img/jrm.jpg");
+    background-position: top center;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     text-shadow: 1px 1px 3px gray;
     padding-top: 120px;
@@ -11,7 +13,7 @@
 }
 
 #principal div {
-    background-color: #0002;
+    background-color: #0009;
     max-width: 60%;
     margin: 0 auto;
     padding: 20px;
@@ -57,19 +59,19 @@
 }
 
 #i2 {
-    background: url("../img/foto-m.jpg") center;
+    background: url("../img/galeria.png") center;
 }
 
 #i3 {
-    background: url("../img/foto-p.jpg") center;
+    background: url("../img/4.jpg") center;
 }
 
 #i4 {
-    background: url("../img/xicaradecafe.jpg") bottom;
+    background: url("../img/7.jpg") bottom;
 }
 
 #i5 {
-    background: url("../img/foto-g.jpg") top;
+    background: url("../img/10.jpg") top;
 }
 #artigos article h1 {
     color: gray;
