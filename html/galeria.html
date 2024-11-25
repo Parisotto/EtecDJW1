@@ -35,15 +35,20 @@
           column-count: 4;
         }
 
+        img {
+            transition: transform 1s ease-in-out;
+        }
         img:hover {
           cursor: pointer;
           width: 120%;
-          position: relative;
-          z-index: 1;
-          margin-left: -25px;
           border: 5px solid white;
           box-shadow: 0 0 20px 5px #0007;
-          transition: margin-left 3s, width 3s;
+          transform: scale(1.3);  
+
+          /* position: relative;
+          z-index: 1;
+          margin-left: -25px;
+          transition: margin-left 3s, width 3s; */
         }
     </style>
 </head>
